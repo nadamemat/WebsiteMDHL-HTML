@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
+    
      
     
 }
@@ -14,17 +15,21 @@ header{
     background-repeat: no-repeat;
     max-width: 100%;
     
+    
+    
  }
 h1{
     position: absolute;
     font-size: 2rem;
     bottom: 11rem;
     font-style: italic;
+    left: 10px;
 }
 img{
-    
     position: relative;
     top: 15rem;
+    display: flex;
+     
     
 }
 h2{
@@ -67,3 +72,36 @@ p{
     border-radius: 5px;
     text-decoration: none;
   }
+  .ArticleContact{
+    
+    position: relative;
+    left: 12%;
+    text-decoration: none;
+    border: 5px solid rgb(255, 255, 255);
+    
+    margin-left: 100px;
+    margin-top: 30px;
+
+}
+.email-link{
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color:rgb(45, 19, 178);
+    border: 2px solid black;
+    margin: 2px;
+    border-radius: 5px;
+    text-decoration: navy;
+    font-weight: bold;
+}
+.ArticleAbout{
+    
+    position: relative;
+    left: 12%;
+    text-decoration: none;
+
+}
+.ParrafoAbout{
+    max-width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+}
