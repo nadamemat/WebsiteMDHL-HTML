@@ -1,9 +1,113 @@
-/*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    
 }
-nav{
-    background-color: rgb(69, 15, 119);
-    height:  20vh;
+
+header {
+    background-image: url(../assets/images/hockey1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 15%;
+    background-clip: border-box;
+    padding: 4rem;
+    border: 1px solid black;
+    align-items: center;
+    height: 250px;
+}
+
+header img {
+    display: inline-block;
+    position:  absolute;
+    top: 200px;
+    right: 130px;
+}
+
+header>h1 {
+    color: #e8280fdf;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+}
+
+nav {
+    float: left;
+    display: inline;
+}
+
+nav li {
+    margin-bottom: 150px;
+    margin-top: 80px;
+}
+.SoloTexto {
+    color: black;
+    text-decoration: none;
+  }
+
+nav > a {
+    display: block;
+    margin: 0 3em 4em 3em;
+    
+}
+
+main > ul {
+    display: inline;
+}
+
+nav a {
+    text-decoration: underline;
+    color: #0f057e;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+     
+}
+
+
+main section dt {
+    margin-top: 25px;
+    margin-left: 150px;
+}
+
+main section dl {
+    display: inline-block;
+    padding-bottom: 105px;
+    margin-left: 170px;
+}
+
+
+main section h2 {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+}
+
+.ArticleAbout{
+    margin-top: 60px;
+    margin-left: 40px;
+}
+.ParrafoAbout{
+    margin-top: 2px;
+    margin-left: 200px;
+}
+.link1{
+    margin-top: 120px;
+    margin-left: 10px;
+}
+.link2{
+    margin-top: -50px;
+    margin-left: 10px;
+}
+.link3{
+    margin-top: -80px;
+    margin-left: 10px;
+}
+
+.ArticleContact{
+    margin-top: 60px;
+    margin-left: 185px;
 }
