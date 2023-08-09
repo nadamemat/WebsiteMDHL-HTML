@@ -5,6 +5,17 @@
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
 }
+
+/*Titulo Principal*/
+h1{
+    position: static;
+    font-size: 3rem;   
+    font-style: italic;
+    color: rgb(25, 38, 225);
+    text-shadow: 2px 2px 4px rgba(58, 225, 12, 0.89);
+}
+
+/*Boton de pagina actual de otro color*/
 .SoloTexto {
     background-color: rgb(0, 255, 76);
     color: white;
@@ -12,4 +23,49 @@
     border: 2px solid black;
     margin: 2px;
     border-radius: 5px;
+}
+
+/*Colores a los botones del nav*/
+ nav a {
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border: 2px solid black;
+    margin: 2px;
+    border-radius: 5px;
+    text-decoration: none;
+    /* position: relative;
+    bottom: 11.3rem;
+    left: 75%; */
+} 
+/*Imagen principal del header*/
+header img {
+    max-height: 30vh;
+    width: 100%;
+    /* object-fit: cover o contain;  Asegura que la imagen se ajuste dentro del contenedor */
+}
+
+/*Botones para ir a las paginas*/
+header nav{
+    float: right;
+    margin-left: auto;
+    position: relative;
+    top: 0.7rem;
+}
+
+/*Titulo centrado del main section*/
+h2{
+    text-align: center;
+    position: relative;
+    bottom: 0.4rem;
+    border: 2px solid black;
+    padding: 10px;
+    
+}
+/*Imagenes que van dentro del main debajo del texto*/
+
+main section .img_section {
+    max-height: 10vh;
+    width: 10%;
+    /* object-fit: cover o contain;  Asegura que la imagen se ajuste dentro del contenedor */
 }
