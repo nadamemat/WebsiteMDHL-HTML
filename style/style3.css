@@ -1,33 +1,33 @@
 /*selector univ*/
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(214, 229, 192) ;
+    background-color: rgb(214, 229, 192);
 }
 
 /*Titulo Principal*/
-header{
+header {
     display: flex;
-    font-size: 1rem;   
+    font-size: 1rem;
     font-style: italic;
     color: rgb(43, 30, 216);
     text-shadow: 2px 2px 4px rgba(58, 225, 12, 0.89);
     justify-content: space-between;
     /* background-image: url(../assets/images/design1_image1.png); */
-    
+
 }
 
 /*header mod titulo tamaño*/
-header h1{
-   display: flex;
-   margin: 8px;
-   /* background-image: url(../assets/images/design1_image1.png); */
+header h1 {
+    display: flex;
+    margin: 8px;
+    /* background-image: url(../assets/images/design1_image1.png); */
 }
 
 /*Botones para ir a las paginas*/
-header nav{
+header nav {
     /* float: right;
     margin-left: auto;
     position: relative;
@@ -39,7 +39,7 @@ header nav{
 
 /*Colores a los botones del nav*/
 body header nav a {
-    
+
     background-color: rgb(43, 30, 216);
     color: white;
     padding: 10px 15px;
@@ -50,7 +50,7 @@ body header nav a {
     /* position: relative;
     bottom: 11.3rem;
     left: 75%; */
-} 
+}
 
 /*Boton de pagina actual de otro color*/
 .SoloTexto {
@@ -61,8 +61,9 @@ body header nav a {
     margin: 0.1px;
     border-radius: 5px;
 }
+
 /*------------------------------------------------------------*/
-.banner{
+.banner {
     width: 100%;
     height: 30vh;
 }
@@ -71,17 +72,17 @@ body header nav a {
 flex-grow:;
 } */
 
-.banner img{
+.banner img {
     width: 100%;
     height: 100%;
 }
 
-main article{
+main article {
     width: 90%;
 }
 
 /*Titulo centrado del main section*/
-h2{
+h2 {
     text-align: center;
     position: relative;
     bottom: 0.4rem;
@@ -91,11 +92,11 @@ h2{
 }
 
 /*Imagenes que van dentro del main debajo del texto*/
-.cajitas{
+.cajitas {
     display: flex;
     align-items: center;
     justify-content: space-around;
- }
+}
 
 /* Logo que va en el section */
 /* .imagen-loca{
@@ -109,6 +110,7 @@ h2{
 main {
     width: 100vw;
 }
+
 main .img_section {
     max-height: 250vh;
     width: 30vw;
@@ -116,19 +118,19 @@ main .img_section {
     /* object-fit: cover o contain;  Asegura que la imagen se ajuste dentro del contenedor */
 }
 
-.contenedor_de_texto{
+.contenedor_de_texto {
 
-     /* display: block; */
-     padding-left: 4rem;
-     width: 100%;
-     
+    /* display: block; */
+    padding-left: 4rem;
+    width: 100%;
+
 }
 
-.dl_titulo{
+.dl_titulo {
     text-align: center;
 }
 
-.pseudo_titulos{
+.pseudo_titulos {
     font-weight: bold;
 }
 
@@ -137,12 +139,21 @@ main .img_section {
 }
 
 
-.ol_fields{
-   list-style-type: upper-alpha;
+.ol_fields {
+    list-style-type: upper-alpha;
 }
 
-.all_play li{
-    list-style-type:disc;
+.all_play li {
+    list-style-type: disc;
+
 }
 
+/* Elimina el margen inferior de los elementos h3 */
+/* .forma_text_info {
+    margin-bottom: 0; 
+} */
 
+/* Elimina el margen superior del primer párrafo después de cada h3 */
+/* .forma_text_info p {
+    margin-top: 0; 
+} */
