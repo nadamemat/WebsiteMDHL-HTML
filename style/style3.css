@@ -4,30 +4,43 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(214, 229, 192) ;
 }
 
 /*Titulo Principal*/
-h1{
-    position: static;
-    font-size: 3rem;   
+header{
+    display: flex;
+    font-size: 1rem;   
     font-style: italic;
-    color: rgb(25, 38, 225);
+    color: rgb(43, 30, 216);
     text-shadow: 2px 2px 4px rgba(58, 225, 12, 0.89);
+    justify-content: space-between;
+    /* background-image: url(../assets/images/design1_image1.png); */
+    
 }
 
-/*Boton de pagina actual de otro color*/
-.SoloTexto {
-    background-color: rgb(0, 255, 76);
-    color: white;
-    padding: 10px 15px;
-    border: 2px solid black;
-    margin: 2px;
-    border-radius: 5px;
+/*header mod titulo tamaño*/
+header h1{
+   display: flex;
+   margin: 8px;
+   /* background-image: url(../assets/images/design1_image1.png); */
+}
+
+/*Botones para ir a las paginas*/
+header nav{
+    /* float: right;
+    margin-left: auto;
+    position: relative;
+    top: 0.7rem; */
+    display: flex;
+    flex-wrap: wrap;
+    /* background-image: url(../assets/images/design1_image1.png); */
 }
 
 /*Colores a los botones del nav*/
- nav a {
-    background-color: blue;
+body header nav a {
+    
+    background-color: rgb(43, 30, 216);
     color: white;
     padding: 10px 15px;
     border: 2px solid black;
@@ -38,19 +51,33 @@ h1{
     bottom: 11.3rem;
     left: 75%; */
 } 
-/*Imagen principal del header*/
-header img {
-    max-height: 30vh;
+
+/*Boton de pagina actual de otro color*/
+.SoloTexto {
+    background-color: rgb(58, 225, 12, 0.89);
+    color: white;
+    padding: 10px 15px;
+    border: 2px solid black;
+    margin: 0.1px;
+    border-radius: 5px;
+}
+/*------------------------------------------------------------*/
+.banner{
     width: 100%;
-    /* object-fit: cover o contain;  Asegura que la imagen se ajuste dentro del contenedor */
+    height: 30vh;
 }
 
-/*Botones para ir a las paginas*/
-header nav{
-    float: right;
-    margin-left: auto;
-    position: relative;
-    top: 0.7rem;
+/* .text-inicio{
+flex-grow:;
+} */
+
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+
+main article{
+    width: 90%;
 }
 
 /*Titulo centrado del main section*/
@@ -60,12 +87,56 @@ h2{
     bottom: 0.4rem;
     border: 2px solid black;
     padding: 10px;
-    
 }
-/*Imagenes que van dentro del main debajo del texto*/
 
-main section .img_section {
-    max-height: 10vh;
-    width: 10%;
+/*Imagenes que van dentro del main debajo del texto*/
+.cajitas{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+/* Logo que va en el section */
+/* .imagen-loca{
+   width: 100%;
+} */
+
+/*dl del about achicar un poco*/
+/* main section .dl-about{
+    
+} */
+
+main .img_section {
+    max-height: 250vh;
+    width: 30vw;
+    border-radius: 10px;
     /* object-fit: cover o contain;  Asegura que la imagen se ajuste dentro del contenedor */
 }
+
+.contenedor_de_texto{
+
+     display: block;
+}
+
+.dl_titulo{
+    text-align: center;
+}
+
+.pseudo_titulos{
+    font-weight: bold;
+}
+
+.ol ol_regulations{
+    list-style-type: upper-alpha;
+}
+
+
+.ol_fields{
+   list-style-type: upper-alpha;
+}
+
+.all_play li{
+    list-style-type:disc;
+}
+
+
