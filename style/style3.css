@@ -15,31 +15,23 @@ header {
     color: rgb(43, 30, 216);
     text-shadow: 2px 2px 4px rgba(58, 225, 12, 0.89);
     justify-content: space-between;
-    /* background-image: url(../assets/images/design1_image1.png); */
-
 }
 
 /*header mod titulo tamaño*/
 header h1 {
     display: flex;
     margin: 8px;
-    /* background-image: url(../assets/images/design1_image1.png); */
 }
 
 /*Botones para ir a las paginas*/
 header nav {
-    /* float: right;
-    margin-left: auto;
-    position: relative;
-    top: 0.7rem; */
     display: flex;
     flex-wrap: wrap;
-    /* background-image: url(../assets/images/design1_image1.png); */
+   
 }
 
 /*Colores a los botones del nav*/
 body header nav a {
-
     background-color: rgb(43, 30, 216);
     color: white;
     padding: 10px 15px;
@@ -47,9 +39,6 @@ body header nav a {
     margin: 2px;
     border-radius: 5px;
     text-decoration: none;
-    /* position: relative;
-    bottom: 11.3rem;
-    left: 75%; */
 }
 
 /*Boton de pagina actual de otro color*/
@@ -67,10 +56,6 @@ body header nav a {
     width: 100%;
     height: 30vh;
 }
-
-/* .text-inicio{
-flex-grow:;
-} */
 
 .banner img {
     width: 100%;
@@ -98,15 +83,7 @@ h2 {
     justify-content: space-around;
 }
 
-/* Logo que va en el section */
-/* .imagen-loca{
-   width: 100%;
-} */
 
-/*dl del about achicar un poco*/
-/* main section .dl-about{
-    
-} */
 main {
     width: 100vw;
 }
@@ -148,15 +125,6 @@ main .img_section {
 
 }
 
-/* Elimina el margen inferior de los elementos h3 */
-/* .forma_text_info {
-    margin-bottom: 0; 
-} */
-
-/* Elimina el margen superior del primer párrafo después de cada h3 */
-/* .forma_text_info p {
-    margin-top: 0; 
-} */
 
 .legend{
     text-align: center;
@@ -168,32 +136,8 @@ main .img_section {
     width: 20vw;
 }
 
-/*Maps*/
-/* .maps{
-    display: flex;
-    width: 40rem;
-    position: relative;
-    height: 20rem;
-   
-    border-radius: 2rem 2rem;
-    align-items: center;
-    gap: 2rem;
-}
-
-
-
-
-.maps img{
-    width: 30%;
-    
-}
-
-.maps iframe{
-    width: 40%;
-    height: 18rem;
-    border-radius: 1rem;
-} */
-
+/***************************************************************************************************************************************/
+/* Estilo maps */
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -228,6 +172,44 @@ main .img_section {
     border-radius: 1rem;
 }
 
+/***************************************************************************************************************************************/
+/* Estilo para el formulario */
+form {
+    display: grid;
+    gap: 10px;
+    margin-top: 20px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* Estilo para las etiquetas 'label' */
+label {
+    font-weight: bold;
+}
+
+/* Estilo para el campo de selección */
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Estilo para el botón de envío */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
 /*------------------------------------------------------------------*/
 /*rulesets para el footer*/
 footer{
@@ -239,3 +221,4 @@ footer{
     color: rgb(107, 19, 19);
     font-weight: bold;
 }
+/*----------------------------------------------------------------------------*/
