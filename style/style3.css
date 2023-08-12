@@ -157,3 +157,13 @@ main .img_section {
 /* .forma_text_info p {
     margin-top: 0; 
 } */
+
+legend{
+    text-align: center;
+    
+    position: relative;
+    bottom: 0.4rem;
+    border: 2px solid black;
+    padding: 10px;
+    width: 20vw;
+}
