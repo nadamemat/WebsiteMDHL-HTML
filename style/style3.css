@@ -90,10 +90,12 @@ main {
 
 main .img_section {
     max-height: 250vh;
-    width: 30vw;
+    width: 25vw;
     border-radius: 10px;
     /* object-fit: cover o contain;  Asegura que la imagen se ajuste dentro del contenedor */
 }
+
+
 
 .contenedor_de_texto {
 
@@ -211,6 +213,17 @@ input[type="submit"]:hover {
 }
 
 /*------------------------------------------------------------------*/
+.showdata{
+
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+
+}
+/*------------------------------------------------------------------*/
+
 /*rulesets para el footer*/
 footer{
     
